@@ -1,0 +1,104 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+
+}
+a:any-link, a:visited{
+	color: white;
+	text-decoration: none;
+
+}
+a:hover, a:active{
+	color: #438d98;
+}
+
+body {
+
+    margin:0;
+    padding:0;
+    background:url("Images/Sterne.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: auto;
+    font-family: Century Gothic, Arial, Calibri
+}
+
+#wrapper {
+	width: 100vw;
+	height: 100vh;
+}
+
+#Merkur{
+	background:url(Images/Merkur.png) no-repeat center center;
+	float: left;
+	width: 60px; 
+	height: 59px;
+	margin-left: 60px;
+	margin-top: 384px;
+}
+
+#Venus{
+	background:url(Images/Venus.png) no-repeat center center;
+	float: left;
+	width: 120px; 
+	height: 120px;
+	margin-left: 60px;
+	margin-top: 350px;
+}
+
+#Erde{
+	background:url(Images/Erde.png) no-repeat center center;
+	float: left;
+	width: 150px; 
+	height: 150px;
+	margin-left: 60px;
+	margin-top: 340px;
+}
+
+#Mars{
+	background:url(Images/Mars.png) no-repeat center center;
+	float: left;
+	width: 150px; 
+	height: 150px;
+	margin-left: 60px;
+	margin-top: 340px;
+}
+
+#Jupiter{
+	background:url(Images/Jupiter.png) no-repeat center center;
+	float: left;
+	width: 250px; 
+	height: 250px;
+	margin-left: 60px;
+	margin-top: 290px;
+}
+
+#Saturn{
+	background:url(Images/Saturn.png) no-repeat center center;
+	float: left;
+	width: 320px; 
+	height: 180px;
+	margin-left: 60px;
+	margin-top: 330px;
+}
+
+#Uranus{
+	background:url(Images/Uranus.png) no-repeat center center;
+	float: left;
+	width: 130px; 
+	height: 130px;
+	margin-left: 60px;
+	margin-top: 355px;
+}
+
+#Neptun{
+	background:url(Images/Neptun.png) no-repeat center center;
+	float: left;
+	width: 150px; 
+	height: 150px;
+	margin-left: 60px;
+	margin-top: 345px;
+}
