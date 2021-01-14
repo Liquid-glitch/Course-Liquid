@@ -1,0 +1,140 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+
+}
+
+div > a{
+	width: 10%;
+	height: auto;
+}
+
+p, a{
+	width: 100%;
+	background-color: #111111;
+	border-radius: 25px;
+	font-size: 110%;
+	text-align: center;
+	margin-top: -4vh;
+}
+
+a:any-link, a:visited{
+	color: white;
+	text-decoration: none;
+
+}
+a:hover, a:active{
+	color: #438d98;
+}
+
+body {
+
+    margin:0;
+    padding:0;
+    background:url("Images/Sterne.webp") no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: auto;
+    overflow-x: hidden;
+    font-family: Century Gothic, Arial, Calibri
+}
+
+footer{
+	color: white;
+	width: 20vw;
+	height: 10vh;
+}
+
+#wrapper {
+	width: 80vw;
+	height: auto;
+	margin-bottom: 20%;
+	margin-top: 10%;
+}
+
+#Merkur{
+	background:url(Images/Merkur.webp) no-repeat center center;
+	background-size: contain;
+	float: left;
+	width: 80vw; 
+	height: 10vh;
+	margin-left: 12.5vw;
+	margin-bottom: inherit;
+ 
+}
+
+#Venus{
+	background:url(Images/Venus.webp) no-repeat center center;
+	background-size: contain;
+	float: left;
+	width: 80vw;
+	height: 17vh;
+	margin-left: 12.5vw;
+	margin-bottom: inherit;
+
+}
+
+#Erde{
+	background:url(Images/Erde.webp) no-repeat center center;
+	background-size: contain;
+	float: left;
+	width: 80vw; 
+	height: 19vh;
+	margin-left: 12.5vw;
+	margin-bottom: inherit;
+
+}
+
+#Mars{
+	background:url(Images/Mars.webp) no-repeat center center;
+	background-size: contain;
+	float: left;
+	width: 80vw; 
+	height: 17vh;
+	margin-left: 12.5vw;
+	margin-bottom: inherit;
+}
+
+#Jupiter{
+	background:url(Images/Jupiter.webp) no-repeat center center;
+	background-size: contain;
+	float: left;
+	width: 80vw;
+	height: 25vh;
+	margin-left: 12.5vw;
+	margin-bottom: inherit;
+}
+
+#Saturn{
+	background:url(Images/Saturn.webp) no-repeat center center;
+	background-size: contain;
+	float: left;
+	width: 80vw; 
+	height: 19vh;
+	margin-left: 12.5vw;
+	margin-bottom: inherit;
+}
+
+#Uranus{
+	background:url(Images/Uranus.webp) no-repeat center center;
+	background-size: contain;
+	float: left;
+	width: 80vw; 
+	height: 18vh;
+	margin-left: 12.5vw;
+	margin-bottom: inherit;
+}
+
+#Neptun{
+	background:url(Images/Neptun.webp) no-repeat center center;
+	background-size: contain;
+	float: left;
+	width: 80vw; 
+	height: 20vh;
+	margin-left: 12.5vw;
+	margin-bottom: inherit; 
+}
