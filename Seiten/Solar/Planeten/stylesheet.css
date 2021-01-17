@@ -1,0 +1,151 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+
+}
+
+a:any-link, a:visited{
+	color: white;
+	text-decoration: none;
+
+}
+
+a:hover, a:active{
+	color: #438d98;
+}
+
+div > a{
+	width: 10%;
+	height: auto;
+}
+
+ol{
+	margin-left: 3vw;
+	color: white;
+	text-align: center;
+	font-size: 13px;
+	line-height: 150%;
+}
+
+body {
+
+    margin:0;
+    padding:0;
+    background:url("../Images/Sterne.webp") no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: auto;
+    overflow-x: hidden;
+    font-family: Century Gothic, Arial, Calibri;
+}
+
+::selection {
+    background-color: white;
+    color: black;
+}
+
+::-moz-selection {
+    background-color: white;
+    color: black;
+}
+
+::-o-selection {
+    background-color: white;
+    color: black;
+}
+
+::-webkit-selection {
+    background-color: white;
+    color: black;
+}
+
+::-ms-selection {
+    background-color: #352e7e;
+    color: #fff;
+}
+
+hr{
+	height: 6px;
+	border: solid white;
+}
+
+h1{
+	color: white;
+	text-align: center;
+	font-size: 80px;
+}
+
+#wrapper{
+	width: 100vw;
+	height: auto;
+	margin-bottom: 20%;
+	margin-top: 1.5%;
+}
+
+#Merkur{
+	width: 33vw; 
+	height: 16vh;
+    margin-top: 20vh;
+    margin-left: 34.35vw;
+	background: url(../Images/Merkur.webp) no-repeat center center;
+}
+
+#Venus{
+	width: 33vw; 
+	height: 16vh;
+    margin-top: 20vh;
+    margin-left: 34.55vw;
+	background: url(../Images/Venus.webp) no-repeat center center;
+}
+
+#Erde{
+	width: 35vw; 
+	height: 16vh;
+    margin-top: 20vh;
+    margin-left: 33.35vw;
+	background: url(../Images/Erde.webp) no-repeat center center;
+}
+
+#Mars{
+	width: 35vw; 
+	height: 16vh;
+    margin-top: 20vh;
+    margin-left: 33.35vw;
+	background: url(../Images/Mars.webp) no-repeat center center;
+}
+
+#Jupiter{
+	width: 47vw; 
+	height: 26vh;
+    margin-top: 20vh;
+    margin-left: 27.75vw;
+	background: url(../Images/Jupiter.webp) no-repeat center center;
+}
+
+#Saturn{
+	width: 77vw; 
+	height: 26vh;
+    margin-top: 20vh;
+    margin-left: 12.75vw;
+	background: url(../Images/Saturn.webp) no-repeat center center;
+}
+
+#Uranus{
+	width: 77vw; 
+	height: 26vh;
+    margin-top: 20vh;
+    margin-left: 12.75vw;
+	background: url(../Images/Uranus.webp) no-repeat center center;
+}
+
+#Neptun{
+	width: 77vw; 
+	height: 26vh;
+    margin-top: 20vh;
+    margin-left: 12.75vw;
+	background: url(../Images/Neptun.webp) no-repeat center center;
+}
