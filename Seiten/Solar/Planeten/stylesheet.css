@@ -39,6 +39,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
     overflow: auto;
+    overflow-x: hidden;
     font-family: Century Gothic, Arial, Calibri;
 }
 
