@@ -73,6 +73,12 @@ hr{
 	border: solid white;
 }
 
+p{
+	color: white;
+	text-align: center;
+	font-size: 40px;
+}
+
 h1{
 	color: white;
 	text-align: center;
@@ -89,55 +95,55 @@ h1{
 #Merkur{
 	width: 33vw; 
 	height: 16vh;
-    margin-top: 20vh;
+    margin-top: 10vh;
     margin-left: 34.35vw;
 	background: url(../Images/Merkur.webp) no-repeat center center;
 }
 
 #Venus{
-	width: 33vw; 
-	height: 16vh;
-    margin-top: 20vh;
-    margin-left: 34.55vw;
+	width: 35vw; 
+	height: 18vh;
+    margin-top: 10vh;
+    margin-left: 34.25vw;
 	background: url(../Images/Venus.webp) no-repeat center center;
 }
 
 #Erde{
-	width: 35vw; 
-	height: 16vh;
-    margin-top: 20vh;
+	width: 38vw; 
+	height: 22vh;
+    margin-top: 7vh;
     margin-left: 33.35vw;
 	background: url(../Images/Erde.webp) no-repeat center center;
 }
 
 #Mars{
 	width: 35vw; 
-	height: 16vh;
-    margin-top: 20vh;
+	height: 18vh;
+    margin-top: 15vh;
     margin-left: 33.35vw;
 	background: url(../Images/Mars.webp) no-repeat center center;
 }
 
 #Jupiter{
-	width: 47vw; 
-	height: 26vh;
-    margin-top: 20vh;
-    margin-left: 27.75vw;
+	width: 53vw; 
+	height: 30vh;
+    margin-top: 5vh;
+    margin-left: 25.55vw;
 	background: url(../Images/Jupiter.webp) no-repeat center center;
 }
 
 #Saturn{
-	width: 77vw; 
+	width: 90vw; 
 	height: 26vh;
-    margin-top: 20vh;
-    margin-left: 12.75vw;
+    margin-top: 5vh;
+    margin-left: 6.5vw;
 	background: url(../Images/Saturn.webp) no-repeat center center;
 }
 
 #Uranus{
 	width: 77vw; 
 	height: 26vh;
-    margin-top: 20vh;
+    margin-top: 5vh;
     margin-left: 12.75vw;
 	background: url(../Images/Uranus.webp) no-repeat center center;
 }
@@ -145,7 +151,7 @@ h1{
 #Neptun{
 	width: 77vw; 
 	height: 26vh;
-    margin-top: 20vh;
+    margin-top: 5vh;
     margin-left: 12.75vw;
 	background: url(../Images/Neptun.webp) no-repeat center center;
 }
